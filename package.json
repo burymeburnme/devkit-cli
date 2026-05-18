@@ -1,0 +1,40 @@
+{
+  "name": "devkit-cli",
+  "version": "1.0.0",
+  "description": "A command-line developer toolkit that scaffolds new projects in Node.js, Python, and Go",
+  "main": "src/cli.js",
+  "bin": {
+    "devkit-cli": "./src/cli.js",
+    "devkit": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/cli.test.js",
+    "lint": "eslint src/",
+    "build": "echo 'No build step required — pure Node.js'"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "generator",
+    "boilerplate",
+    "nodejs",
+    "python",
+    "golang",
+    "developer-tools",
+    "github-achievements"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/devkit-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/devkit-cli/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/devkit-cli#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
